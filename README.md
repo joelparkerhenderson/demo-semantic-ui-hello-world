@@ -5,6 +5,7 @@ This demonstration shows:
   * [Semantic UI](https://semantic-ui.com/) elements, components, fonts, etc.
   * [Web Open Font Format](https://developer.mozilla.org/en-US/docs/Web/Guide/WOFF) for *.woff font files.
   * [CSS sprites](https://css-tricks.com/css-sprites/) for faster loading of many small images.
+  * [Rawgit](https://rawgit.com/): serve raw files directly from GitHub.
 
 Start:
 
