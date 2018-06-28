@@ -1,8 +1,16 @@
 # Demo Semantic UI hello world
 
-Demonstration of [Semantic UI](https://semantic-ui.com/) elements, components, fonts, etc.
+This demonstration shows:
 
-https://semantic-ui.com/introduction/getting-started.html
+  * [Semantic UI](https://semantic-ui.com/) elements, components, fonts, etc.
+  * [Web Open Font Format](https://developer.mozilla.org/en-US/docs/Web/Guide/WOFF) for *.woff font files.
+  * [CSS sprites](https://css-tricks.com/css-sprites/) for faster loading of many small images.
+
+Start:
+
+* [View the demo](https://rawgit.com/joelparkerhenderson/demo_semantic_ui_hello_world/master/demo.html)
+* [View the demo file in the repo](demo.html)
+* [Semantic UI: Introduction: Getting Started](https://semantic-ui.com/introduction/getting-started.html)
 
 To create the demo, we downloaded these files:
 
