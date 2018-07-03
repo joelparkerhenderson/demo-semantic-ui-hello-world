@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="cdn/semantic-ui/2.3.2/semantic.min.css">
+    <script src="cdn/jquery/3.3.1/jquery.min.js"></script>
+    <script src="cdn/semantic-ui/2.3.2/semantic.min.js"></script>
+    <!-- semantic-ui/2.3.2/themes/default/assets/fonts/icons.woff -->
+    <!-- semantic-ui/2.3.2/themes/default/assets/fonts/outline-icons.woff -->
+    <script>
+      $(document).ready(function(){
+	  $('.top.menu .item').tab();
+      }
+    </script>
+  </head>
+  <body>
+
+    <h1>Demo tab menu</h1>
+    
+    <div class="ui top attached tabular menu">
+      <a class="item active" data-tab="alpha">Alpha</a>
+      <a class="item" data-tab="bravo">Bravo</a>
+      <a class="item" data-tab="charlie">Charlie</a>
+    </div>
+    
+    <div class="ui tab" data-tab="alpha">
+      Alpha content
+    </div>
+    
+    <div class="ui tab" data-tab="bravo">
+      Bravo content
+    </div>
+    
+    <div class="ui tab" data-tab="charlie">
+      Charlie content
+    </div>
+    
+  </body>
+</html>
