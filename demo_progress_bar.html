@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="cdn/semantic-ui/2.3.2/semantic.min.css">
+    <script src="cdn/jquery/3.3.1/jquery.min.js"></script>
+    <script src="cdn/semantic-ui/2.3.2/semantic.min.js"></script>
+    <!-- semantic-ui/2.3.2/themes/default/assets/fonts/icons.woff -->
+    <!-- semantic-ui/2.3.2/themes/default/assets/fonts/outline-icons.woff -->
+    <script>
+      // You can initialize the progress bar by using code
+      $(document).ready(function(){
+	  $('#demo-progress-bar').progress({
+	      percent: 5
+	  });
+      });
+    </script>
+  </head>
+  <body>
+    
+    <h1>Demo of Semantic UI progress bar</h1>
+
+    <!-- You can initialize the progress bar % by using the `data-percent` attribute -->
+    <div id="demo-progress-bar" class="ui progress" data-percent="5">
+      <div class="bar">
+	<div class="progress"></div>
+      </div>
+    </div>
+    
+  </body>
+</html>
+
+
